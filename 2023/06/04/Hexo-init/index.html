@@ -12,9 +12,9 @@
 <meta property="og:url" content="https://arragon.github.io/2023/06/04/Hexo-init/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="记录一下Hexo的安装与初始化过程 官方文档:https:&#x2F;&#x2F;hexo.io&#x2F;zh-cn&#x2F;docs&#x2F;#%E5%AE%89%E8%A3%85-Hexo  1. 安装Node.js2. 配置git3. 根据文档安装Hexo1$ npm install hexo 安装完成后进行初始化 123$ hexo init &lt;your blog name&gt;$ cd &lt;your blog name">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale">
 <meta property="article:published_time" content="2023-06-04T09:23:24.016Z">
-<meta property="article:modified_time" content="2023-06-04T09:44:32.068Z">
+<meta property="article:modified_time" content="2023-06-04T09:59:27.387Z">
 <meta property="article:author" content="Arragon">
 <meta name="twitter:card" content="summary">
   
@@ -65,10 +65,10 @@
         
           <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
         
-        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
+        <a class="nav-icon nav-search-btn" title="Suche"><span class="fa fa-search"></span></a>
       </nav>
       <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://Arragon.github.io"></form>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Suche"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://Arragon.github.io"></form>
       </div>
     </div>
   </div>
@@ -99,13 +99,18 @@
 <blockquote>
 <p>本地访问博客:localhost:5555</p>
 </blockquote>
-<h2 id="6-部署到github"><a href="#6-部署到github" class="headerlink" title="6. 部署到github"></a>6. 部署到github</h2><p>在<code>_config.yml</code>中更改 <code>Author</code>, <code>url: your_io_location</code><br>新增<code>type: git</code><br>随后<code>repo: your_gitpage_repo_location</code></p>
+<h2 id="6-部署到github"><a href="#6-部署到github" class="headerlink" title="6. 部署到github"></a>6. 部署到github</h2><p>在<code>_config.yml</code>中更改 <code>Author</code>, <code>url: your_io_location</code><br>新增<br>    <code>type: git</code><br>    <code>repo: your_gitpage_repo_location</code><br>    <code>branch: your_branch_name</code></p>
 <p>安装依赖插件<br><code>$ npm install hexo-deployer-git --save</code></p>
+<p>本地生成<br><code>$ hexo g</code></p>
+<p>部署<br><code>hexo d</code></p>
+<blockquote>
+<p>如果报错<code> SSL certificate problem: unable to get local issuer certificate</code><br>使用<code>git config --global http.sslverify false</code>关闭签名验证即可</p>
+</blockquote>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://arragon.github.io/2023/06/04/Hexo-init/" data-id="clih7u16m0001kkn90nlvcg5k" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="https://arragon.github.io/2023/06/04/Hexo-init/" data-id="clih7u16m0001kkn90nlvcg5k" data-title="" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
       
       
       
@@ -117,7 +122,7 @@
   
   
     <a href="/2023/06/04/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
+      <strong class="article-nav-caption">Älter</strong>
       <div class="article-nav-title">Hello World</div>
     </a>
   
@@ -141,7 +146,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
+    <h3 class="widget-title">Archiv</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/06/">June 2023</a></li></ul>
     </div>
@@ -151,7 +156,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">letzter Beitrag</h3>
     <div class="widget">
       <ul>
         
