@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="https://arragon.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://arragon.github.io/"/>
+  <updated>2023-06-04T10:38:23.306Z</updated>
+  <id>https://arragon.github.io/</id>
+  
+  <author>
+    <name>Arragon</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://arragon.github.io/2023/06/04/Hexo-init/"/>
+    <id>https://arragon.github.io/2023/06/04/Hexo-init/</id>
+    <published>2023-06-04T09:23:24.016Z</published>
+    <updated>2023-06-04T10:38:23.306Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="记录一下Hexo的安装与初始化过程"><a href="#记录一下Hexo的安装与初始化过程" class="headerlink" title="记录一下Hexo的安装与初始化过程"></a>记录一下Hexo的安装与初始化过程</h1><blockquote><p>官方文档:<a href="https://hexo.io/zh-cn/docs/#%E5%AE%89%E8%A3%85-Hexo">https://hexo.io/zh-cn/docs/#%E5%AE%89%E8%A3%85-Hexo</a></p></blockquote><h2 id="1-安装Node-js"><a href="#1-安装Node-js" class="headerlink" title="1. 安装Node.js"></a>1. 安装Node.js</h2><h2 id="2-配置git"><a href="#2-配置git" class="headerlink" title="2. 配置git"></a>2. 配置git</h2><h2 id="3-根据文档安装Hexo"><a href="#3-根据文档安装Hexo" class="headerlink" title="3. 根据文档安装Hexo"></a>3. 根据文档安装Hexo</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo</span><br></pre></td></tr></table></figure><p>安装完成后进行初始化</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init &lt;your blog name&gt;</span><br><span class="line">$ cd &lt;your blog name&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure><h2 id="4-文件组成"><a href="#4-文件组成" class="headerlink" title="4. 文件组成"></a>4. 文件组成</h2><p><code>_config.yml</code>可以配置网站信息<br><code>source/posts</code>发布文章</p><h2 id="5-配置端口"><a href="#5-配置端口" class="headerlink" title="5. 配置端口"></a>5. 配置端口</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s -p 5555</span><br></pre></td></tr></table></figure><blockquote><p>本地访问博客:localhost:5555</p></blockquote><h2 id="6-部署到github"><a href="#6-部署到github" class="headerlink" title="6. 部署到github"></a>6. 部署到github</h2><p>在<code>_config.yml</code>中更改 <code>Author</code>, <code>url: your_io_location</code><br>新增<br>    <code>type: git</code><br>    <code>repo: your_gitpage_repo_location</code><br>    <code>branch: your_branch_name</code></p><p>安装依赖插件<br><code>$ npm install hexo-deployer-git --save</code></p><p>本地生成<br><code>$ hexo g</code></p><p>部署<br><code>hexo d</code></p><blockquote><p>如果报错<code> SSL certificate problem: unable to get local issuer certificate</code><br>使用<code>git config --global http.sslverify false</code>关闭签名验证即可</p></blockquote><p>每次修改与更新都需要重复<br><code>$ hexo g</code><br><code>hexo d</code></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;记录一下Hexo的安装与初始化过程&quot;&gt;&lt;a href=&quot;#记录一下Hexo的安装与初始化过程&quot; class=&quot;headerlink&quot; title=&quot;记录一下Hexo的安装与初始化过程&quot;&gt;&lt;/a&gt;记录一下Hexo的安装与初始化过程&lt;/h1&gt;&lt;blockquote&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://arragon.github.io/2023/06/04/hello-world/"/>
+    <id>https://arragon.github.io/2023/06/04/hello-world/</id>
+    <published>2023-06-04T09:18:08.890Z</published>
+    <updated>2023-06-04T09:16:29.916Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
