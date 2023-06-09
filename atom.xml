@@ -6,7 +6,7 @@
   <link href="https://arragon.github.io/atom.xml" rel="self"/>
   
   <link href="https://arragon.github.io/"/>
-  <updated>2023-06-04T10:52:54.383Z</updated>
+  <updated>2023-06-09T03:34:39.673Z</updated>
   <id>https://arragon.github.io/</id>
   
   <author>
@@ -17,18 +17,20 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>Melody troubleshooting</title>
     <link href="https://arragon.github.io/2023/06/04/18-52-12/"/>
     <id>https://arragon.github.io/2023/06/04/18-52-12/</id>
     <published>2023-06-04T10:52:12.373Z</published>
-    <updated>2023-06-04T10:52:54.383Z</updated>
+    <updated>2023-06-09T03:34:39.673Z</updated>
     
-    <content type="html"><![CDATA[<p>在博客目录下打开git bash here，输入命令：npm install –save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive 2.hexo clean（清除缓存） 3.hexo g（生成静态文件） 4.hexo s 5.hexo d(部署到GitHub上)</p>]]></content>
+    <content type="html"><![CDATA[<ol><li>在博客目录下打开git bash here</li><li>输入命令：npm install –save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive </li><li>hexo clean（清除缓存） </li><li>hexo g（生成静态文件） </li><li>hexo s </li><li>hexo d(部署到GitHub上)</li></ol>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;在博客目录下打开git bash here，输入命令：npm install –save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generato</summary>
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;在博客目录下打开git bash here&lt;/li&gt;
+&lt;li&gt;输入命令：npm install –save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersyn</summary>
       
     
     
