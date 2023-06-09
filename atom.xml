@@ -6,7 +6,7 @@
   <link href="https://arragon.github.io/atom.xml" rel="self"/>
   
   <link href="https://arragon.github.io/"/>
-  <updated>2023-06-09T03:34:39.673Z</updated>
+  <updated>2023-06-09T07:05:23.548Z</updated>
   <id>https://arragon.github.io/</id>
   
   <author>
@@ -21,16 +21,14 @@
     <link href="https://arragon.github.io/2023/06/04/18-52-12/"/>
     <id>https://arragon.github.io/2023/06/04/18-52-12/</id>
     <published>2023-06-04T10:52:12.373Z</published>
-    <updated>2023-06-09T03:34:39.673Z</updated>
+    <updated>2023-06-09T07:05:23.548Z</updated>
     
-    <content type="html"><![CDATA[<ol><li>在博客目录下打开git bash here</li><li>输入命令：npm install –save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive </li><li>hexo clean（清除缓存） </li><li>hexo g（生成静态文件） </li><li>hexo s </li><li>hexo d(部署到GitHub上)</li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="生成时报错：extends-includes-x2F-layout-pug-block-content-recent-posts-recent-posts-include-includ"><a href="#生成时报错：extends-includes-x2F-layout-pug-block-content-recent-posts-recent-posts-include-includ" class="headerlink" title="生成时报错：extends includes&#x2F;layout.pug block content #recent-posts.recent-posts include includ"></a>生成时报错：extends includes&#x2F;layout.pug block content #recent-posts.recent-posts include includ</h1><ol><li>在博客目录下打开git bash</li><li>输入命令：npm install –save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive </li><li>hexo clean（清除缓存） </li><li>hexo g（生成静态文件） </li><li>hexo s </li><li>hexo d(部署到GitHub上)<blockquote><p>参考<a href="https://blog.csdn.net/TiAmopanduola/article/details/115671151">https://blog.csdn.net/TiAmopanduola/article/details/115671151</a></p></blockquote></li></ol><h1 id="部署时报错-fatal-unable-to-access-‘https-github-com-Arragon-Arragon-github-io-git-‘-Failed-to-connect-to-github-com-port-443-after-21103-ms-Couldn’t-connect-to-server"><a href="#部署时报错-fatal-unable-to-access-‘https-github-com-Arragon-Arragon-github-io-git-‘-Failed-to-connect-to-github-com-port-443-after-21103-ms-Couldn’t-connect-to-server" class="headerlink" title="部署时报错: fatal: unable to access ‘https://github.com/Arragon/Arragon.github.io.git/‘: Failed to connect to github.com port 443 after 21103 ms: Couldn’t connect to server"></a>部署时报错: fatal: unable to access ‘<a href="https://github.com/Arragon/Arragon.github.io.git/">https://github.com/Arragon/Arragon.github.io.git/</a>‘: Failed to connect to github.com port 443 after 21103 ms: Couldn’t connect to server</h1><p>1. </p>]]></content>
     
     
       
       
-    <summary type="html">&lt;ol&gt;
-&lt;li&gt;在博客目录下打开git bash here&lt;/li&gt;
-&lt;li&gt;输入命令：npm install –save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersyn</summary>
+    <summary type="html">&lt;h1 id=&quot;生成时报错：extends-includes-x2F-layout-pug-block-content-recent-posts-recent-posts-include-includ&quot;&gt;&lt;a href=&quot;#生成时报错：extends-includes-x2F-l</summary>
       
     
     
