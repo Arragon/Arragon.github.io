@@ -6,7 +6,7 @@
   <link href="https://arragon.github.io/atom.xml" rel="self"/>
   
   <link href="https://arragon.github.io/"/>
-  <updated>2023-06-04T10:38:23.306Z</updated>
+  <updated>2023-06-04T10:52:54.383Z</updated>
   <id>https://arragon.github.io/</id>
   
   <author>
@@ -18,8 +18,28 @@
   
   <entry>
     <title></title>
-    <link href="https://arragon.github.io/2023/06/04/Hexo-init/"/>
-    <id>https://arragon.github.io/2023/06/04/Hexo-init/</id>
+    <link href="https://arragon.github.io/2023/06/04/18-52-12/"/>
+    <id>https://arragon.github.io/2023/06/04/18-52-12/</id>
+    <published>2023-06-04T10:52:12.373Z</published>
+    <updated>2023-06-04T10:52:54.383Z</updated>
+    
+    <content type="html"><![CDATA[<p>在博客目录下打开git bash here，输入命令：npm install –save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive 2.hexo clean（清除缓存） 3.hexo g（生成静态文件） 4.hexo s 5.hexo d(部署到GitHub上)</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;在博客目录下打开git bash here，输入命令：npm install –save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generato</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://arragon.github.io/2023/06/04/17-23-24/"/>
+    <id>https://arragon.github.io/2023/06/04/17-23-24/</id>
     <published>2023-06-04T09:23:24.016Z</published>
     <updated>2023-06-04T10:38:23.306Z</updated>
     
@@ -39,8 +59,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://arragon.github.io/2023/06/04/hello-world/"/>
-    <id>https://arragon.github.io/2023/06/04/hello-world/</id>
+    <link href="https://arragon.github.io/2023/06/04/17-18-08/"/>
+    <id>https://arragon.github.io/2023/06/04/17-18-08/</id>
     <published>2023-06-04T09:18:08.890Z</published>
     <updated>2023-06-04T09:16:29.916Z</updated>
     
