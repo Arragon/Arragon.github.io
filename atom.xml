@@ -6,7 +6,7 @@
   <link href="https://arragon.github.io/atom.xml" rel="self"/>
   
   <link href="https://arragon.github.io/"/>
-  <updated>2023-06-09T12:29:34.115Z</updated>
+  <updated>2023-06-10T06:25:08.182Z</updated>
   <id>https://arragon.github.io/</id>
   
   <author>
@@ -17,11 +17,31 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>功能测试</title>
+    <link href="https://arragon.github.io/2023/06/10/14-21-33/"/>
+    <id>https://arragon.github.io/2023/06/10/14-21-33/</id>
+    <published>2023-06-10T06:21:33.316Z</published>
+    <updated>2023-06-10T06:25:08.182Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h1><p><a href="https://github.com/Arragon/blog_gallary/blob/main/IMG_0521.JPG">test</a></p><h1 id="插入公式"><a href="#插入公式" class="headerlink" title="插入公式"></a>插入公式</h1><h1 id="插入表格"><a href="#插入表格" class="headerlink" title="插入表格"></a>插入表格</h1><h1 id="插入slide"><a href="#插入slide" class="headerlink" title="插入slide"></a>插入slide</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;插入图片&quot;&gt;&lt;a href=&quot;#插入图片&quot; class=&quot;headerlink&quot; title=&quot;插入图片&quot;&gt;&lt;/a&gt;插入图片&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Arragon/blog_gallary/blob/main/IMG</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Melody troubleshooting</title>
     <link href="https://arragon.github.io/2023/06/04/18-52-12/"/>
     <id>https://arragon.github.io/2023/06/04/18-52-12/</id>
     <published>2023-06-04T10:52:12.373Z</published>
-    <updated>2023-06-09T12:29:34.115Z</updated>
+    <updated>2023-06-09T12:34:22.797Z</updated>
     
     <content type="html"><![CDATA[<h1 id="生成时报错：extends-includes-x2F-layout-pug-block-content-recent-posts-recent-posts-include-includ"><a href="#生成时报错：extends-includes-x2F-layout-pug-block-content-recent-posts-recent-posts-include-includ" class="headerlink" title="生成时报错：extends includes&#x2F;layout.pug block content #recent-posts.recent-posts include includ"></a>生成时报错：extends includes&#x2F;layout.pug block content #recent-posts.recent-posts include includ</h1><ol><li>在博客目录下打开git bash</li><li>输入命令：npm install –save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive </li><li>hexo clean（清除缓存） </li><li>hexo g（生成静态文件） </li><li>hexo s </li><li>hexo d(部署到GitHub上)<blockquote><p>参考<a href="https://blog.csdn.net/TiAmopanduola/article/details/115671151">https://blog.csdn.net/TiAmopanduola/article/details/115671151</a></p></blockquote></li></ol><h1 id="部署时报错-fatal-unable-to-access-‘https-github-com-Arragon-Arragon-github-io-git-‘-Failed-to-connect-to-github-com-port-443-after-21103-ms-Couldn’t-connect-to-server"><a href="#部署时报错-fatal-unable-to-access-‘https-github-com-Arragon-Arragon-github-io-git-‘-Failed-to-connect-to-github-com-port-443-after-21103-ms-Couldn’t-connect-to-server" class="headerlink" title="部署时报错: fatal: unable to access ‘https://github.com/Arragon/Arragon.github.io.git/‘: Failed to connect to github.com port 443 after 21103 ms: Couldn’t connect to server"></a>部署时报错: fatal: unable to access ‘<a href="https://github.com/Arragon/Arragon.github.io.git/">https://github.com/Arragon/Arragon.github.io.git/</a>‘: Failed to connect to github.com port 443 after 21103 ms: Couldn’t connect to server</h1><p>原因是SSL证书错误</p><ol><li>首先尝试关闭SSL验证<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git config --global http.sslverify false</span><br></pre></td></tr></table></figure>这并不是一个安全的方法,只是一次尝试,但是失败了<br><strong>别忘了再次打开SSL验证</strong><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git config --global http.sslverify true</span><br></pre></td></tr></table></figure></li><li>随后尝试使用账户密码登录<br>修改_config.yml<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">url = https://username:password@github.com/pythonsoft/test.git</span><br></pre></td></tr></table></figure>依然失败,因为github自<code>August 13, 2021</code>之后因安全原因不再提供此种方法,推荐使用<code>git-credential-cache</code>命令缓存密码<br>有点麻烦,还没有尝试</li><li>临时起意,尝试了一次清空缓存命令<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>随后再部署,成功了<br>以后每次重新部署,养成先清缓存的好习惯</li></ol><h2 id="更新：绷不住，又失败了，清空缓存也没用"><a href="#更新：绷不住，又失败了，清空缓存也没用" class="headerlink" title="更新：绷不住，又失败了，清空缓存也没用"></a>更新：绷不住，又失败了，清空缓存也没用</h2><p>尝试使用<code>git-credential-cache</code>方法</p><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git config --global credential.helper cache</span><br></pre></td></tr></table></figure>]]></content>
     
