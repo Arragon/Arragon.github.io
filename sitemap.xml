@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://arragon.github.io/2023/06/10/14-21-33/</loc>
+    <loc>https://arragon.github.io/2023/06/10/00-00-00/</loc>
     
     <lastmod>2023-06-10</lastmod>
     
@@ -13,7 +13,7 @@
   <url>
     <loc>https://arragon.github.io/2023/06/04/18-52-12/</loc>
     
-    <lastmod>2023-06-09</lastmod>
+    <lastmod>2023-06-10</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -81,6 +81,27 @@
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>https://arragon.github.io/tags/hexo/</loc>
+    <lastmod>2023-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://arragon.github.io/tags/hexo-theme/</loc>
+    <lastmod>2023-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://arragon.github.io/tags/melody/</loc>
+    <lastmod>2023-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 
   
