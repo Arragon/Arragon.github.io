@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://arragon.github.io/2023/10/10/08-31-52/</loc>
+    
+    <lastmod>2023-10-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://arragon.github.io/2023/10/10/16-14-41/</loc>
+    
+    <lastmod>2023-10-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://arragon.github.io/2023/07/05/21-59-40/</loc>
+    
+    <lastmod>2023-07-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://arragon.github.io/2023/06/26/00-00-00/</loc>
+    
+    <lastmod>2023-06-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://arragon.github.io/2023/06/27/00-00-00/</loc>
+    
+    <lastmod>2023-06-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://arragon.github.io/2023/06/10/00-00-00/</loc>
     
     <lastmod>2023-06-10</lastmod>
@@ -76,29 +121,57 @@
 
   <url>
     <loc>https://arragon.github.io/</loc>
-    <lastmod>2023-06-10</lastmod>
+    <lastmod>2023-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>https://arragon.github.io/tags/Fortran/</loc>
+    <lastmod>2023-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://arragon.github.io/tags/note/</loc>
+    <lastmod>2023-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://arragon.github.io/tags/hexo/</loc>
-    <lastmod>2023-06-10</lastmod>
+    <lastmod>2023-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://arragon.github.io/tags/hexo-theme/</loc>
-    <lastmod>2023-06-10</lastmod>
+    <lastmod>2023-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://arragon.github.io/tags/melody/</loc>
-    <lastmod>2023-06-10</lastmod>
+    <lastmod>2023-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://arragon.github.io/tags/VsCode/</loc>
+    <lastmod>2023-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://arragon.github.io/tags/Fortls/</loc>
+    <lastmod>2023-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
